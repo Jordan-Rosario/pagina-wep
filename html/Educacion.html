@@ -78,7 +78,7 @@
 				
 				<legend><h3>Agregar Estudios</h3></legend>
 
-				<strong>Año:</strong>
+				<label for="Año">Año:</label>
 				<select>
 					<option>1995</option>
 					<option>1996</option>
@@ -106,16 +106,16 @@
 					<option>2018</option>	
 				</select><br>
 
-				<strong>Institucion: </strong>
-				<input type="text" name="Institucion" placeholder="Donde estudiaste?"><br>
+				<label for="Institucion">Institucion:</label>
+				<input type="text" name="Institucion" placeholder="Donde estudiaste?" required="text" autofocus><br>
 
-				<strong>Lugar: </strong>
-				<input type="text" name="Lugar" placeholder="Donde está tu lugar de Estudios?"><br>
+				<label for="Ciudad">Ciudad:</label>
+				<input type="text" name="Lugar" placeholder="Donde esta ubicado?" required="text" autofocus><br>
 
 				
-				<label for="Genero"><strong>¿Culmino?</strong></label>
-				<input type="radio" name="Genero">Si
-				<input type="radio" name="Genero">No
+				<label for="Genero">¿Culmino?</label>
+				<input type="radio" name="Genero" required>Si
+				<input type="radio" name="Genero" required>No
 				<br>
 
 				<input type="Submit" name="Enviar">
